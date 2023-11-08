@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: lightgray;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    height: 50vh;
+    width: 50vw;
+}
+.upper{
+    display: flex;
+}
+.lower{
+    display: flex;
+}
+.view{
+    width:76.5%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+        /* text-align: center; */
+        /* justify-content: center; */
+    align-items: center;
+    font-size: 30px;
+    padding: 12px;
+}
+.ac{
+    font-size: 30px;
+    background-color: green;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.num{
+    width:80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+}
+.operations{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: gray;
+    width: 20%;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 30px;
+    color: white;
+    background-color: gray;
+}
+:hover.item{
+    cursor: pointer;
+    background-color: rgb(44, 39, 39);
+    color: green;
+}
+:hover.item2 {
+    cursor: pointer;
+    background-color: rgb(34, 33, 33);
+    color: green;
+}
+:hover.ac {
+    cursor: pointer;
+    background-color: rgb(3, 41, 3);
+    color: white;
+}
